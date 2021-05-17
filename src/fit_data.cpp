@@ -44,10 +44,10 @@ int fit_data(std::string fname) {
 
 	// fit
 	ROOT::Minuit2::MnUserParameters par;
-	par.Add("p0", 0.0, 0.1);
-	par.Add("p1", 1.0, 0.1);
-	par.Add("p2", 0.0, 0.1);
-	par.Add("p3", 0.0, 0.1);
+	par.Add("p0", 0.0, 0.01);
+	par.Add("p1", 1.0, 0.01);
+	par.Add("p2", 0.0, 0.01);
+	par.Add("p3", 0.0, 0.01);
 	ROOT::Minuit2::MnMigrad migrad(fcn, par);
 	ROOT::Minuit2::FunctionMinimum min = migrad();
 
