@@ -4,8 +4,6 @@
 
 Yutaka Tsuzuki
 
-yutaka.tsuzuki@ipmu.jp
-
 ## 概要
 
 この文書は, ROOT (https://root.cern.ch) に含まれるパッケージである Minuit2 (https://root.cern.ch/root/htmldoc/guides/minuit2/Minuit2.html) の使い方をまとめたものである. 
